@@ -38,3 +38,8 @@ variable "availability_zones" {
   type        = list(string)
   description = "Availability Zones"
 }
+
+variable "transit_gateway_id" {
+  type = string
+  description = "Transit Gateway Attachment"
+}
